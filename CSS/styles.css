@@ -1,4 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap');
 *{
     font-family: Jost;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+
+}
+
+.conten1 {
+    background: linear-gradient(#8159F9,#ED80FD);
+    border-radius: 48px;
+    border-bottom-right-radius: 300px;
+    color: #FFFFFF;
+    padding: 80px;
+}
+
+.conten1 h1{
+    font-weight: bold;
+}
+
+.conten1 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.conten1 .boto-g1 a{
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.conten1 .boto-g1 .saber{
+    width: 110px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: #FD909E;
+}
+
+.conten1 .boto-g1 .plan{
+    width: 110px;
+    height: 40px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background: none;
+}
+
+footer{
+    background-color: #010851;
+    width: 100%;
+    color: #FFFFFF
+}
+
+footer .container-foot{
+    color: #FFFFFF;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
 }
